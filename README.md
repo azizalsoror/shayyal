@@ -1,6 +1,11 @@
-# شيّال — واجهة الويب (المرحلة الأولى)
+# شيّال - الواجهة (Next.js)
 
-1. `npm install` ثم `npm run dev` للتجربة المحلية (ملف `.env.local` جاهز).
-2. للنشر: ارفع المجلد إلى GitHub، ثم في Vercel اختر Add New → Project واستورد المستودع.
-3. أضف في Vercel المتغيرين `NEXT_PUBLIC_SUPABASE_URL` و`NEXT_PUBLIC_SUPABASE_ANON_KEY` من ملف `.env.local`.
-4. في Supabase: Authentication → URL Configuration أضف رابط موقعك على Vercel إلى Site URL وRedirect URLs.
+## التشغيل محلياً
+```
+npm install
+npm run dev
+```
+ثم افتح http://localhost:3000
+
+## النشر على Vercel
+ارفع محتوى هذا المجلد إلى جذر ريبو GitHub (يجب أن يكون package.json في الصفحة الرئيسية للريبو)، ثم استورده في Vercel.
